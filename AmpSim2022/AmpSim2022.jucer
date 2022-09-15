@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="gPOmNl" name="AmpSim2022" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="Viator DSP"
+              cppLanguageStandard="17">
+  <MAINGROUP id="Xzhm1i" name="AmpSim2022">
+    <GROUP id="{D6E9E01A-AA61-8418-E7DC-A10331E131CB}" name="Source">
+      <GROUP id="{DC89EB72-081F-CCD2-B9B3-18E6CFC64D75}" name="Assets">
+        <FILE id="ugcUKX" name="button_middle_off.png" compile="0" resource="1"
+              file="Source/Assets/button_middle_off.png"/>
+        <FILE id="B23Jm6" name="button_middle_on.png" compile="0" resource="1"
+              file="Source/Assets/button_middle_on.png"/>
+        <FILE id="iMhPQx" name="Knob_01.png" compile="0" resource="1" file="Source/Assets/Knob_01.png"/>
+        <FILE id="Nj4TNw" name="Knob_03.png" compile="0" resource="1" file="Source/Assets/Knob_03.png"/>
+        <FILE id="WvpbCp" name="Knob_04.png" compile="0" resource="1" file="Source/Assets/Knob_04.png"/>
+        <FILE id="lQswVh" name="landon55-04.png" compile="0" resource="1" file="Source/Assets/landon55-04.png"/>
+        <FILE id="vOF1m5" name="led_off.png" compile="0" resource="1" file="Source/Assets/led_off.png"/>
+        <FILE id="wMrgAX" name="led_on.png" compile="0" resource="1" file="Source/Assets/led_on.png"/>
+      </GROUP>
+      <FILE id="EFU0Bc" name="GuitarHack Edge Straight -10.wav" compile="0"
+            resource="1" file="Source/GuitarHack Edge Straight -10.wav"/>
+      <GROUP id="{D3F81842-1737-2121-8259-2B3E204D566D}" name="Parameters">
+        <FILE id="mYcENk" name="Globals.cpp" compile="1" resource="0" file="Source/Parameters/Globals.cpp"/>
+        <FILE id="mcZMlF" name="Globals.h" compile="0" resource="0" file="Source/Parameters/Globals.h"/>
+      </GROUP>
+      <FILE id="jnWkhL" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="roc6As" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="kWqvaq" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="HmJqPx" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="AmpSim2022"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="AmpSim2022" useRuntimeLibDLL="0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="viator_modules" path="../../../../../Users/land00m/Documents/viatordsp"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="AmpSim2022"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="AmpSim2022"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JT-16/modules/JUCE/modules"/>
+        <MODULEPATH id="viator_modules" path="../../../../../Users/land00m/Documents/viatordsp"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="viator_modules" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
